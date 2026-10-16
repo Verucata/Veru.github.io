@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Changelog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src ="images/logo.png" style="width: 200px; height: auto;"></a>
+    <div class="center-box">Changelog
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="version-nav" aria-label="Version navigation">
+      <button id="prev" type="button" aria-label="Previous version">←</button>
+      <span>PREVIOUS</span>
+      <div class="dots" id="dots" aria-label="Choose version"></div>
+      <span>NEXT</span>
+      <button id="next" type="button" aria-label="Next version">→</button>
+    </nav>
+
+    <div class="progress-row">
+      <span>0%</span>
+      <div class="progress-track"><div class="progress-fill" id="progress"></div></div>
+      <span>100%</span>
+    </div>
+
+    <section id="top" class="update-header">
+      <div class="version-meta">
+        <h1 id="version">14.5</h1>
+        <span class="version-tag" id="version-tag">v14.5</span>
+      </div>
+      <p class="date" id="date">August 10, 2026</p>
+      <div class="banner">
+        <img src="images/update-banner.jpg" alt="Update banner" onerror="this.style.display='none'; document.querySelector('.banner-fallback').style.display='grid'">
+        <div class="banner-fallback"><span>UPDATE 14.5</span><small>Добавь изображение в images/update-banner.jpg</small></div>
+      </div>
+    </section>
+
+    <article class="article">
+      <section class="content-section" id="overview">
+        <h2 class="section-title"><span>Overview</span></h2>
+        <ul class="overview-list">
+          <li><a href="#units"><b class="star">★</b> <b class="new">NEW</b> 5 New Units ✨</a></li>
+          <li><a href="#memoria"><b class="star">★</b> <b class="new">NEW</b> 5 New Memoria 🃏</a></li>
+          <li><a href="#familiars"><b class="star">★</b> <b class="new">NEW</b> 3 Vanguard Familiars 🟨</a></li>
+          <li><a href="#demons"><b class="star">★</b> <b class="new">NEW</b> Demon Familiars 👹</a></li>
+          <li><a href="#codex"><b class="star">★</b> <b class="new">NEW</b> Codex ▣</a></li>
+          <li><a href="#battlepass"><b class="star">★</b> <b class="new">NEW</b> Battlepass 🎟️</a></li>
+          <li><a href="#dungeon"><b class="star">★</b> <b class="new">NEW</b> Dungeon 🌙</a></li>
+          <li><a href="#changes"><b class="star">★</b> <b class="new">NEW</b> Changes / QoL 🔧</a></li>
+        </ul>
+
+      </section>
+
+      <section class="content-section" id="features">
+        <h2 class="section-title"><span>Features</span></h2>
+
+        <section class="entry" id="units">
+          <h3><b class="star">★</b> <b class="new">NEW</b> 5 New Units ✨</h3>
+          <p>The update introduces five brand-new units. Replace this sample text with your patch notes.</p>
+          <div class="unit-pills">
+            <h4>Dungeon</h4>
+            <div class="unit-item">
+             <button
+             class="pill image-trigger"
+             type="button"
+             data-image="images/unit.png">
+             New Unit One
+            </button>
+
+        <div class="inline-preview-group" hidden>
+            <img class="inline-preview"
+            src="images/unit.png"
+            alt="New Unit One — вариант 1">
+            <img class="inline-preview"
+            src="images/logo.png"
+            alt="New Unit One — вариант 2">
+            </div>
+        </div>
+
+            <div class="pill">New Unit Two</div>
+            <h4>Login Event</h4>
+            <div class="pill"><span class="pink">New Unit Three</span></div>
+          </div>
+        </section>
+
+        <section class="entry" id="memoria">
+          <h3><b class="star">★</b> <b class="new">NEW</b> 5 New Memoria</h3>
+          <p>Collect new Memoria for the new units. Replace this paragraph with the correct details.</p>
+          <h4 class="gold">☀ Dungeon</h4>
+          <ul>
+            <li><span class="red">Secret Memoria</span>
+              <ul><li><span class="pink">Memoria Name</span> — exclusive to a unit.</li></ul>
+            </li>
+            <li><span class="green">Mythic Memoria</span></li>
+          </ul>
+        </section>
+
+        <section class="entry" id="familiars">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Vanguard Familiars</h3>
+          <p>Describe the new familiars here. This panel can later contain a screenshot, illustration or interactive selector.</p>
+          <div class="placeholder-panel">Familiar image or interactive panel</div>
+        </section>
+
+        <section class="entry" id="demons">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Demon Familiars</h3>
+          <p>Describe the new system, how it works and where the items can be obtained.</p>
+          <h4 class="gold">☀ The Demons</h4>
+          <ul>
+            <li><b>Familiar One</b> — describe its ability.</li>
+            <li><b>Familiar Two</b> — describe its ability.</li>
+            <li><b>Familiar Three</b> — describe its ability.</li>
+          </ul>
+          <h4 class="gold">☀ Fusion</h4>
+          <ul>
+            <li>Item One + Item Two = Result.</li>
+            <li>Explain other recipes here.</li>
+          </ul>
+        </section>
+
+        <section class="entry" id="codex">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Codex</h3>
+          <p>Describe the new feature. Use additional paragraphs when you need to explain how it works.</p>
+          <p>You can insert links, images and lists into any section.</p>
+        </section>
+
+        <section class="entry" id="battlepass">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Battlepass</h3>
+          <p>Describe the season, rewards and exclusive items.</p>
+          <ul>
+            <li>Tier 5 — <span class="pink">Reward One</span></li>
+            <li>Tier 15 — <span class="blue">Reward Two</span></li>
+            <li>Tier 50 — <span class="gold">Exclusive Reward</span></li>
+          </ul>
+        </section>
+
+        <section class="entry" id="dungeon">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Dungeon</h3>
+          <p>Describe the dungeon, its floors, difficulty and rewards.</p>
+          <h4 class="gold">☀ Drops</h4>
+          <ul>
+            <li>Floor 1 — reward and drop chance.</li>
+            <li>Floor 5 — reward and drop chance.</li>
+          </ul>
+          <h4 class="gold">☀ Shop</h4>
+          <ul>
+            <li><span class="pink">Item One</span> — price and limit.</li>
+            <li><span class="green">Item Two</span> — price and limit.</li>
+          </ul>
+        </section>
+
+        <section class="entry" id="changes">
+          <h3><b class="star">★</b> <b class="new">NEW</b> Changes / QoL</h3>
+          <p>Describe balance changes, quality-of-life improvements and bug fixes.</p>
+          <ul>
+            <li>Improved navigation.</li>
+            <li>Performance and stability fixes.</li>
+            <li>Additional bug fixes.</li>
+          </ul>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
